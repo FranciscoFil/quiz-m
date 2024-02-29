@@ -1,0 +1,70 @@
+[
+    {
+        "question": "Em termos de Piauí, qual importante terminal portuário foi responsável por escoar, no período, essa produção, em especial a carne seca e o couro?",
+        "text": "Na primeira metade do século XVIII, em um rio Parnaíba quase todo navegável, se escoava com facilidade a “cultura do arroz, do tabaco e de todos os mais gêneros”, bem como a atividade pecuarista. Mesmo tendo que conviver com uma rede de transporte e comunicações precárias, essas diversas atividades agrícolas margeantes ao rio Parnaíba dariam sentido a um mercado interno no alto sertão do Piauí e Maranhão. Os produtos tinham basicamente três destinos: abastecer o mercado interno da cidade de São Luís, comercializar a carne seca, o couro, os gados e os cavalos nas feiras de Jacobina e de Capuame (atual cidade de Dias D’Ávila – BA) e, por último, exportar carne seca e couros para Lisboa – Portugal.",
+        "choices": [
+            "A) Porto do Itaqui.",
+            "B) Porto do Canindé.",
+            "C) Porto de Aratu.",
+            "D) Porto da Amarração.",
+            "E) Porto do Poti."
+        ],
+        "answer": "D) Porto da Amarração."
+    },
+    {
+        "question": "Na região onde hoje é o município de Parnaíba – PI, qual Povo Indígena sofreu intensa catequização dos Jesuítas no período supracitado?",
+        "text": "A magnificência do rio e do seu delta foi compartilhada por padres jesuítas e pesquisadores, muito antes da chegada dos bandeirantes paulistas, desbravadores e colonizadores do Piauí. Padres jesuítas e pesquisadores também exploraram a região e relataram a grandiosidade do rio e do seu delta, muito antes da chegada dos bandeirantes paulistas, desbravadores e colonizadores do Piauí. Essa região foi alvo de uma intensa ação dos jesuítas, a partir de 1607.",
+        "choices": [
+            "A) Jenipapos.",
+            "B) Tabajaras.",
+            "C) Tremembé.",
+            "D) Jaicós.",
+            "E) Acauã."
+        ],
+        "answer": "C) Tremembé."
+    },
+    {
+        "question": "A Casa Inglesa de Parnaíba, representação simbólica e material de um período, teve inicialmente como alicerce comercial um importante produto, pauta de exportação da Província à época. De que produto se trata?",
+        "text": "Além do papel cultural com sabor português e francês que a família Dias da Silva imprimiu na nascente e próspera Parnaíba, convém assinalar a confluência dos aspectos culturais da Inglaterra, prodigalizados pela Casa Inglesa de Parnaíba da firma Andrew Miller & Co. Fundada em 1849, logo se tornou ativa exportadora/importadora de especial grandeza no período imperial.",
+        "choices": [
+            "A) Borracha.",
+            "B) Algodão.",
+            "C) Gado.",
+            "D) Tabaco.",
+            "E) Cana-de-açúcar."
+        ],
+        "answer": "B) Algodão."
+    },
+    {
+        "question": "Entre o rio Igaraçu e qual Serra o município de Parnaíba – PI foi fundado?",
+        "text": "Iracema, a virgem dos lábios de mel, é uma personagem fictícia do romancista José de Alencar, em obra que carrega a mesma alcunha de sua protagonista. A personagem habitava em uma proeminente Serra, porém em seu lado que hoje é o Estado do Ceará.",
+        "choices": [
+            "A) Serra das Palmeiras.",
+            "B) Serra de Santo Antônio.",
+            "C) Serra das Confusões.",
+            "D) Serra da Canastra.",
+            "E) Serra da Ibiapaba."
+        ],
+        "answer": "E) Serra da Ibiapaba."
+    },
+    {
+        "question": "História de Parnaíba: Qual evento histórico é considerado crucial para o desenvolvimento inicial de Parnaíba?",
+        "choices": [
+            "A) A descoberta de ouro nos arredores do município.",
+            "B) A chegada de colonizadores europeus e a consequente exploração da terra.",
+            "C) A instalação do primeiro porto, que impulsionou o comércio local e regional.",
+            "D) A fundação de uma das primeiras universidades do Brasil na cidade."
+        ],
+        "answer": "C) A instalação do primeiro porto, que impulsionou o comércio local e regional."
+    },
+    {
+        "question": "Geografia de Parnaíba: O que destaca a geografia de Parnaíba em relação a outros municípios do Piauí?",
+        "choices": [
+            "A) Sua localização em uma região montanhosa, propícia à prática de esportes radicais.",
+            "B) A presença do Delta do Parnaíba, único em mar aberto das Américas.",
+            "C) Sua posição como o ponto mais meridional do estado do Piauí.",
+            "D) A existência de vastas reservas de petróleo e gás natural."
+        ],
+        "answer": "B) A presença do Delta do Parnaíba, único em mar aberto das Américas."
+    }
+]

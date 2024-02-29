@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Perguntas e Respostas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Adição do jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Adição do cliente Socket.IO -->
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+    <!-- Áudio de fundo -->
+    <audio id="backgroundMusic" autoplay loop>
+        <source src="clean.mp3" type="audio/mp3">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+
+    <!-- Tela de Boas-Vindas -->
+    <div id="welcomeScreen" class="container screen">
+        <h2>Bem-vindo ao Jogo de Perguntas!</h2>
+        <label for="playerName">Digite seu nome:</label>
+        <input type="text" id="playerName" placeholder="Seu nome">
+        <button id="startButton">Começar</button>
+    </div>
+
+    <!-- Tela do Jogo -->
+    <div id="gameScreen" class="container screen" style="display:none;">
+        <header>
+            <h1>Jogo de Perguntas e Respostas</h1>
+        </header>
+        <section id="categorySelector">
+            <label for="changeCategory">Escolha a Categoria:</label>
+            <select id="changeCategory">
+                <option value="portugues">Português</option>
+                <option value="informatica">Informática</option>
+                <option value="legislacao">Legislação</option>
+                <option value="conhecimentoped">Conhecimento Pedagógico</option>
+                <option value="conhecimentoloc">Conhecimento Local</option>
+            </select>
+        </section>
+        <!-- Fim do novo código -->
+        <main id="game">
+            <!-- Contador de Perguntas -->
+            <div id="questionCounter"></div>
+            <!-- Temporizador -->
+            <div id="timer"></div>
+            <div id="timerBarContainer" style="width: 100%; background-color: #ddd;">
+                <div id="timerBar" style="width: 100%; height: 20px; background-color: #4CAF50;"></div>
+            </div>
+            <div id="question" class="question">Pergunta aparecerá aqui</div>
+            <div id="choices" class="choices">Opções de resposta</div>
+            <button id="submit">Próxima</button>
+        </main>
+        <footer id="result" class="result">Resultado</footer>
+        <!-- Botão para alternar som -->
+        <div class="sound-toggle-container">
+            <input type="checkbox" id="soundToggle" checked>
+            <label for="soundToggle" class="sound-toggle-label"></label>
+        </div>
+    </div>
+
+    <!-- Tela Final do Jogo -->
+    <div id="endScreen" class="container screen" style="display:none;">
+        <h2>Quiz Concluído!</h2>
+        <div id="finalScore">Seu Score: </div>
+        <button id="restartButton">Jogar Novamente</button>
+
+        <!-- Ranking -->
+        <div id="ranking">
+            <h3>Ranking por Área de Conhecimento</h3>
+            <div id="portuguesRanking" class="ranking">
+                <h4>Português</h4>
+                <ol id="portuguesPlayerList">
+                    <!-- Lista de jogadores de português será preenchida dinamicamente pelo JavaScript -->
+                </ol>
+            </div>
+            <div id="informaticaRanking" class="ranking">
+                <h4>Informática</h4>
+                <ol id="informaticaPlayerList">
+                    <!-- Lista de jogadores de informática será preenchida dinamicamente pelo JavaScript -->
+                </ol>
+            </div>
+            <div id="legislacaoRanking" class="ranking">
+                <h4>Legislação</h4>
+                <ol id="legislacaoPlayerList">
+                    <!-- Lista de jogadores de legislação será preenchida dinamicamente pelo JavaScript -->
+                </ol>
+            </div>
+            <div id="conhecimentoPedagogicoRanking" class="ranking">
+                <h4>Conhecimento Pedagógico</h4>
+                <ol id="conhecimentoPedagogicoPlayerList">
+                    <!-- Lista de jogadores de conhecimento pedagógico será preenchida dinamicamente pelo JavaScript -->
+                </ol>
+            </div>
+            <div id="conhecimentoLocalRanking" class="ranking">
+                <h4>Conhecimento Local</h4>
+                <ol id="conhecimentoLocalPlayerList">
+                    <!-- Lista de jogadores de conhecimento local será preenchida dinamicamente pelo JavaScript -->
+                </ol>
+            </div>
+        </div>
+
+        <!-- Adição do novo código -->
+        <div id="scoreDisplay">Pontuação: 0</div>
+        <div id="streakDisplay">Sequência de Acertos: 0</div>
+        <div id="rankingDisplay">
+            <h3>Ranking</h3>
+            <ul id="rankingList"></ul>
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+
+    <script>
+        // Seleciona o botão "Começar"
+        const startButton = document.getElementById("startButton");
+
+        // Adiciona um evento de clique ao botão "Começar"
+        startButton.addEventListener("click", function() {
+            // Seleciona o elemento de áudio de fundo pelo ID
+            const backgroundMusic = document.getElementById("backgroundMusic");
+
+            // Verifica se a música não está tocando para evitar múltiplas reproduções
+            if (backgroundMusic.paused) {
+                // Inicia a reprodução da música
+                backgroundMusic.play();
+            }
+        });
+
+        // Seleciona o botão de compartilhamento no WhatsApp
+        var shareWhatsAppButton = document.getElementById("shareWhatsApp");
+
+        // Adiciona um ouvinte de evento de clique ao botão de compartilhamento
+        shareWhatsAppButton.addEventListener("click", function() {
+            // Adicione aqui o código para compartilhar no WhatsApp
+            alert("Compartilhando no WhatsApp...");
+        });
+    </script>
+</body>
+</html

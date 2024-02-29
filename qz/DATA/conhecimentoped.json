@@ -1,0 +1,114 @@
+[
+    {
+        "question": "Aspectos Filosóficos da Educação: Qual das seguintes correntes filosóficas enfatiza a importância do ambiente no desenvolvimento humano e critica a educação tradicional por sua rigidez e autoritarismo?",
+        "choices": [
+            "a) Iluminismo",
+            "b) Positivismo",
+            "c) Escolanovismo",
+            "d) Fenomenológico-existencialista",
+            "e) Crítico"
+        ],
+        "answer": "c) Escolanovismo"
+    },
+    {
+        "question": "No cenário educacional brasileiro, as tendências pedagógicas foram muito influenciadas pelo momento cultural e político da sociedade e disseminadas/exploradas graças aos movimentos sociais e filosóficos. Com isso, imprimiram a prática pedagógica do país. Pesquisadores da área educacional apresentam debates e reflexões a respeito das tendências pedagógicas e mostram que as principais, utilizadas na educação brasileira, se dividem em duas grandes linhas de pensamento pedagógico. São elas:",
+        "choices": [
+            "a) Tendências Renovadas.",
+            "b) Tendências Transgressoras e Tendências Progressistas.",
+            "c) Tendências Liberais e Tendências Progressistas.",
+            "d) Tendências Tecnicistas e Tendências Liberais.",
+            "e) Tendências Liberais e Tendências Tecnicistas."
+        ],
+        "answer": "c) Tendências Liberais e Tendências Progressistas."
+    },
+    {
+        "question": "De acordo com Antonio Gramsci, a escola tem a função social de desempenhar a ação docente de forma responsável e comprometida com as demandas exigidas pelo ser humano e pela sociedade como um todo. Assim, a opção correta é:",
+        "choices": [
+            "a) atua como um espaço importante e necessário para o desenvolvimento e ampliação do conhecimento.",
+            "b) ocupa função secundária no que se refere ao papel social.",
+            "c) não pode ser considerada como local do saber elaborado, já que a informação pode ser encontrada em toda a parte.",
+            "d) não precisa apresentar uma proposta de formação humanística, ampla e integral.",
+            "e) atua como espaço público, mas deve desconsiderar o seu papel social, já que outras instituições possuem essa especificidade."
+        ],
+        "answer": "a) atua como um espaço importante e necessário para o desenvolvimento e ampliação do conhecimento."
+    },
+    {
+        "question": " Aprender a ler é um marco na vida das crianças. No entanto, existem vários métodos de alfabetização e se torna necessário conhecer cada um deles para entender qual deles contempla as melhores ferramentas para ensinar os alunos a ler e a escrever. A Política Nacional de Alfabetização-PNA, no Brasil, não explicita um método de alfabetização específico. No entanto, existem dois métodos conhecidos de alfabetização, assim denominados:",
+        "choices": [
+            "a) Sintéticos: partem da leitura dos elementos gráficos até a leitura da totalidade das palavras; e Silábico: ensino por sílabas.",
+            "b) Analíticos: partem da leitura da palavra, frase ou conto para o reconhecimento dos elementos gráficos; e Globais: são genéricos e não especificam o modo com a criança aprende.",
+            "c) Sintéticos: partem da leitura dos elementos gráficos até a leitura da totalidade das palavras; e Analíticos: partem da leitura da palavra, frase ou conto para o reconhecimento dos elementos gráficos.",
+            "d) Sintéticos: partem da leitura dos elementos gráficos até a leitura da totalidade das palavras; e Genéricos: partem da leitura do texto, até a criança ir descobrindo as letras e sons das palavras.",
+            "e) Genéricos: partem da leitura do texto, até a criança ir descobrindo as letras e sons das palavras; e Globais: partem do geral e não especificam o modo com a criança aprende."
+        ],
+        "answer": "c) Sintéticos: partem da leitura dos elementos gráficos até a leitura da totalidade das palavras; e Analíticos: partem da leitura da palavra, frase ou conto para o reconhecimento dos elementos gráficos."
+    },
+    {
+        "question": "A Didática tem seu corpo teórico fundamentado nas contribuições da psicologia, da filosofia e da sociologia, que são áreas do conhecimento que lançam luz sobre a complexidade da prática pedagógica. Assinale V (Verdadeiro) ou F (Falso) quanto aos objetivos da Didática e, em seguida, assinale a alternativa que apresenta a sequência correta. I. ( ) Refletir sobre o papel sociopolítico da educação, da escola e do ensino. II. ( ) Compreender o processo de ensino e suas múltiplas determinações. III. ( ) Instrumentalizar, por meio de arcabouço teórico e prático, o futuro professor, para captar e resolver os problemas postos pela prática pedagógica. IV. ( ) Redimensionar a prática pedagógica através da elaboração da proposta de ensino numa perspectiva crítica de educação.  ",
+        "choices": [
+            "a) V; V; F; V",
+            "b) V; V; V; V",
+            "c) V; V; F; F",
+            "d) V; F; V; V",
+            "e) V; F; V; V"
+        ],
+        "answer": "b) V; V; V; V."
+    },
+    {
+        "question": "Como o trabalho do professor é intencional, o Plano de Aula funciona como um instrumento no qual o professor aborda de forma detalhada as atividades que pretende executar dentro da sala de aula, assim como a relação dos meios que ele utilizará para realização destas. De maneira bem sintetizada, pode-se dizer que o Plano de Aula é:",
+        "choices": [
+            "a) Uma previsão de tudo o que será realizado em um período determinado.",
+            "b) Uma previsão para o ano letivo, conforme calendário.",
+            "c) Uma exigência ou obrigação imposta pela coordenação da escola.",
+            "d) O direcionamento para o preenchimento de diário e anotação das faltas dos alunos, exclusivamente.",
+            "e) Um recurso a mais previsto na proposta pedagógica da escola."
+        ],
+        "answer": "a) Uma previsão de tudo o que será realizado em um período determinado."
+    },
+    {
+        "question": "Os avanços tecnológicos permitem a combinação de ferramentas como videoaulas, uso de sites, com os armazenadores de dados, entre outros que abrem muitas possibilidades, além de ser um valioso suporte para a complexa tarefa de ensinar. Através da virtualidade também se aprende de fato, desde que o professor",
+        "choices": [
+            "a) avalie se o uso da tecnologia é importante ou não no processo ensino aprendizagem.",
+            "b) reconheça que deve fazer uso, diante do contexto, pois caso contrário, poderá ficar fora do mercado de trabalho.",
+            "c) entenda que é uma exigência da escola.",
+            "d) possa acompanhar o andamento das atividades e da construção do conhecimento e aprendizagem dos alunos de forma mais frequente possível.",
+            "e) saiba dominar uso dos recursos tecnológicos sem precisar de auxílio de terceiros."
+        ],
+        "answer": "d) possa acompanhar o andamento das atividades e da construção do conhecimento e aprendizagem dos alunos de forma mais frequente possível."
+    },
+    {
+        "question": "Aspectos Psicológicos da Educação: Segundo as diferentes abordagens sobre a relação desenvolvimento/aprendizagem, Vygotsky defende que:",
+        "choices": [
+            "a) O desenvolvimento cognitivo é determinado geneticamente e a aprendizagem não altera esse processo.",
+            "b) A aprendizagem é um processo secundário que segue o desenvolvimento cognitivo.",
+            "c) O desenvolvimento cognitivo acontece independentemente das experiências de aprendizagem.",
+            "d) A aprendizagem precede e promove o desenvolvimento cognitivo através da interação social.",
+            "e) O desenvolvimento cognitivo e a aprendizagem são processos desconectados e acontecem em paralelo."
+        ],
+        "answer": "d) A aprendizagem precede e promove o desenvolvimento cognitivo através da interação social."
+    },
+    {
+        "question": "A Função Social do Ensino: A função social do ensino, conforme proposto por tendências pedagógicas progressistas, envolve:",
+        "choices": [
+            "a) O ensino de conteúdos descontextualizados da realidade dos alunos.",
+            "b) A preparação dos alunos exclusivamente para as demandas do mercado de trabalho.",
+            "c) A promoção de uma educação que visa à reprodução das estruturas sociais vigentes.",
+            "d) O desenvolvimento de habilidades e competências voltadas para a transformação social.",
+            "e) A ênfase na transmissão de conhecimentos sem questionamento crítico."
+        ],
+        "answer": "d) O desenvolvimento de habilidades e competências voltadas para a transformação social."
+    },
+    {
+        "question": "Tendências Pedagógicas: As tendências pedagógicas progressistas diferenciam-se das liberais principalmente por:",
+        "choices": [
+            "a) Valorizar o acúmulo de conteúdo em detrimento das experiências práticas.",
+            "b) Priorizar a autonomia do aluno e a transformação social.",
+            "c) Focar exclusivamente no desenvolvimento cognitivo, ignorando o aspecto afetivo.",
+            "d) Adotar métodos de ensino tradicionais, com aulas expositivas e memorização.",
+            "e) Enfatizar a competição entre os alunos como forma de estimular o aprendizado."
+        ],
+        "answer": "b) Priorizar a autonomia do aluno e a transformação social."
+    }
+    
+]
+

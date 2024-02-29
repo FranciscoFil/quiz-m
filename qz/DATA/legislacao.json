@@ -1,0 +1,83 @@
+[
+    
+    {
+        "question": "Legislação de Ensino: Diretrizes, Parâmetros, Medidas e Dispositivos Legais: A Lei de Diretrizes e Bases da Educação Nacional (LDB 9.394/96) estabelece que:",
+        "choices": [
+            "A) O ensino será ministrado com base na exclusão e na diferenciação entre os estudantes.",
+            "B) A educação básica tem por finalidade desenvolver o educando, assegurando sua formação cidadã e sua qualificação para o trabalho.",
+            "C) A educação superior deve ser acessível apenas a uma elite intelectual.",
+            "D) A educação física é opcional em todas as etapas e modalidades da educação básica."
+        ],
+        "answer": "B) A educação básica tem por finalidade desenvolver o educando, assegurando sua formação cidadã e sua qualificação para o trabalho."
+    },
+    {
+        "question": "(FUNRIO/PortoMoz/2019)",
+        "text": "De acordo com os principios definidos nas políticas brasileiras de educação, tais como LDB (Lei de Diretrizes e Bases da Educação Nacional) e BNCC (Base Nacional Comum Curricular), chegou-se a um perfil para o currículo do ensino médio apoiado em competências básicas para a inserção dos jovens na vida adulta. Esse currículo busca um ensino:",
+        "choices": [ 
+            "a) Instrumentalizado na repartição precisa entre conteúdos, evitando diálogos entre disciplinas e temas não curriculares.",
+            "b) Tradicional, inspirado nas tentativas pedagógicas de recuperação do ensino de qualidade como era feito nas décadas anteriores.",
+            "c) Integrado à comunidade e a realidade de cada aluno, baseado na cultura e conhecimento popular e no acúmulo de informações.",
+            "d) Profissionalizante e autônomo, visando fomentar práticas emancipatórias e integrativas de educação.",
+            "e) Contextualizado, não compartimentalizado, interdisciplinar e incentivador do raciocínio e da capacidade de aprender."
+        ],
+        "answer": "e) Contextualizado, não compartimentalizado, interdisciplinar e incentivador do raciocínio e da capacidade de aprender."
+    },
+    {
+        "question": "(FUNRIO/PortoMoz/2019) ",
+        "text": " A distribuição proporcional dos recursos dos Fundos de Manutenção e Desenvolvimento da Educação Básica e de Valorização dos Profissionais de Educação (FUNDEB, Lei nº 11.494, de 20 de junho de 2007) levará em conta algumas diferenças entre etapas, modalidades e estabelecimentos da educação básica, tais como: I- Educação indígena e quilombola; II- Anos iniciais do ensino fundamental urbano; III- Ensino médio parcialmente integrado à educação profissional; IV- Anos finais do ensino fundamental no campo.   .",
+        "choices": [ 
+            "a) Apenas o item I está correto.",
+            "b) Apenas os itens I e II estão corretos.",
+            "c) Apenas os itens II, III e IV estão corretos.",
+            "d) Apenas os itens I, III e IV estão corretos.",
+            "e) Apenas os itens I, II e IV estão corretos."
+        ],
+        "answer": "e) Apenas os itens I, II e IV estão corretos."
+    },
+    {
+        "question": "(FUNRIO/PortoMoz/2019) (FUNRIO/PortoMoz/2019)",
+        "text": "De acordo com a Lei de Diretrizes e Bases da Educação Nacional Artigo 5º, o acesso à educação básica obrigatória é direito público subjetivo, podendo qualquer cidadão, grupo de cidadãos, associação comunitária, organização sindical, entidade de classe ou outra legalmente constituída e, ainda, o Ministério Público, acionar o poder público para exigi-lo. E ainda, comprovada a negligência da autoridade competente para garantir o oferecimento do ensino obrigatório, poderá ela: .",
+        "choices": [ 
+            "a) E o município em questão sofrerem sanções financeiras.",
+            "b) Receber multa estabelecida por lei.",
+            "c) Obter prazo de 90 dias para garantir tal oferta, sob pena de multa.",
+            "d) Ser imputada por crime de responsabilidade.",
+            "e) Ser exonerada do cargo, perdendo vários direitos civis."
+        ],
+        "answer": "d) Ser imputada por crime de responsabilidade."
+    },
+    {
+        "question": "(FUNRIO/PortoMoz/2019)",
+        "text": "São diretrizes do Plano Nacional de Educação (Lei nº 13.005/2014), exceto:",
+        "choices": [ 
+            "a) Promoção humanística, científica, cultural e tecnológica no País.",
+            "b) Formação para a superação de desigualdades com ênfase política.",
+            "c) Erradicação do analfabetismo.",
+            "d) Melhoria da qualidade da educação.",
+            "e) Formação para o trabalho e para a cidadania."
+        ],
+        "answer": "b) Formação para a superação de desigualdades com ênfase política."
+    },
+    {
+        "question": "(FUNRIO/PortoMoz/2019)",
+        "text": "A educação abrange os processos formativos que se desenvolvem em vários âmbitos da vida do educando, e deve vincular-se:",
+        "choices": [ 
+            "a) Ao mundo do trabalho e à prática social.",
+            "b) À valorização do profissional da educação.",
+            "c) Ao pluralismo de ideias e de concepções.",
+            "d) À igualdade de condições para o acesso.",
+            "e) À garantia da gestão democrática do ensino."
+        ],
+        "answer": "a) Ao mundo do trabalho e à prática social."
+    },
+    {
+        "question": "Referencial Curricular Nacional para Anos Iniciais do Ensino Fundamental: O Referencial Curricular Nacional para os Anos Iniciais do Ensino Fundamental enfatiza:",
+        "choices": [
+            "A) A padronização rígida do currículo em todo o território nacional, sem considerar as diversidades regionais e culturais.",
+            "B) O desenvolvimento de competências e habilidades que incluem o saber, o fazer, o conviver e o ser.",
+            "C) A exclusão de conteúdos relacionados às artes, à cultura e à educação física, focando exclusivamente em matemática e língua portuguesa.",
+            "D) A avaliação como um processo punitivo, que visa classificar os alunos por desempenho."
+        ],
+        "answer": "B) O desenvolvimento de competências e habilidades que incluem o saber, o fazer, o conviver e o ser."
+    }
+]

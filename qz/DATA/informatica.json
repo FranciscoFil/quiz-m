@@ -1,0 +1,183 @@
+[
+    {
+        "question": "Conceitos básicos de informática: Qual das seguintes opções é considerada um dispositivo de entrada?",
+        "choices": [
+            "a) Monitor",
+            "b) Impressora",
+            "c) Teclado",
+            "d) Alto-falante"
+        ],
+        "answer": "c) Teclado"
+    },
+    {
+        "question": "Componentes básicos de um computador: Qual componente é essencial para o funcionamento do software em um computador?",
+        "choices": [
+            "a) Mouse",
+            "b) Hardware",
+            "c) Monitor",
+            "d) Impressora"
+        ],
+        "answer": "b) Hardware"
+    },
+    {
+        "question": "Arquitetura básica de computadores e dispositivos periféricos: Qual dos seguintes é considerado um dispositivo periférico?",
+        "choices": [
+            "a) CPU",
+            "b) RAM",
+            "c) Scanner",
+            "d) Chipset"
+        ],
+        "answer": "c) Scanner"
+    },
+    {
+        "question": "Dispositivos de armazenamento e cópia de segurança: Qual dos seguintes dispositivos é mais comumente usado para realizar cópias de segurança (backup)?",
+        "choices": [
+            "a) Teclado",
+            "b) Disco rígido externo",
+            "c) Monitor",
+            "d) Mouse"
+        ],
+        "answer": "b) Disco rígido externo"
+    },
+    {
+        "question": "Noções do sistema operacional Windows: No Windows 10, qual recurso permite a organização de janelas lado a lado na mesma tela com facilidade?",
+        "choices": [
+            "a) Cortana",
+            "b) Aero Shake",
+            "c) Snap Assist",
+            "d) Task View"
+        ],
+        "answer": "c) Snap Assist"
+    },
+    {
+        "question": "Conceitos de organização e gerenciamento de arquivos e pastas: No Windows, qual é a função da pasta \"Documentos\"?",
+        "choices": [
+            "a) Armazenar os arquivos temporários do sistema",
+            "b) Guardar programas instalados",
+            "c) Organizar documentos pessoais do usuário",
+            "d) Armazenar arquivos de configuração do sistema"
+        ],
+        "answer": "c) Organizar documentos pessoais do usuário"
+    },
+    {
+        "question": "Conceitos básicos de internet: O que é um navegador web?",
+        "choices": [
+            "a) Um dispositivo para conectar seu computador à internet",
+            "b) Um programa que permite acessar e visualizar páginas na internet",
+            "c) Um serviço de e-mail",
+            "d) Um tipo de vírus de computador"
+        ],
+        "answer": "b) Um programa que permite acessar e visualizar páginas na internet"
+    },
+    {
+        "question": "Conceitos básicos de informática: Qual é o principal propósito de um sistema operacional?",
+        "choices": [
+            "a) Gereciar a conexão à internet",
+            "b) Criar documentos de texto",
+            "c) Gerenciar os recursos do hardware e promover uma base para os aplicativos de software",
+            "d) Fornecer jogos e entretenimento"
+        ],
+        "answer": "c) Gerenciar os recursos do hardware e prover uma base para os aplicativos de software"
+    },
+    {
+        "question": "Componentes básicos de um computador: O que é software?",
+        "choices": [
+            "a) Dispositivos físicos que compõem o computador",
+            "b) Programas e sistemas operacionais usados pelo computador",
+            "c) A parte externa do computador, como teclado e mouse",
+            "d) Circuitos internos do computador"
+        ],
+        "answer": "b) Programas e sistemas operacionais usados pelo computador"
+    },
+    {
+        "question": "Arquitetura básica de computadores e dispositivos periféricos: O que é a CPU?",
+        "choices": [
+            "a) Um dispositivo de armazenamento de dados",
+            "b) O gabinete que contém o computador",
+            "c) O cérebro do computador, responsável por processar instruções",
+            "d) Um dispositivo de entrada"
+        ],
+        "answer": "c)O cérebro do computador, responsável por processar instruções"
+    },
+    {
+        "question": "Dispositivos de armazenamento e cópia de segurança: O que é um SSD?",
+        "choices": [
+            "a) Um tipo de monitor",
+            "b) Uma nova geração de processador",
+            "c) Uma unidade de disco rígido",
+            "d) Uma unidade de estado sólido para armazenamento de dados"
+        ],
+        "answer": "d)Uma unidade de estado sólido para armazenamento de dados"
+    },
+    {
+        "question": "Edição de textos, planilhas e demais documentos utilizando o Microsoft 365 (Office): No Excel, qual função você usaria para calcular a média de um conjunto de números?",
+        "choices": [
+            "a) SOMA()",
+            "b) MED()",
+            "c) MÉDIA()",
+            "d) CONCATENAR()"
+        ],
+        "answer": "c) MÉDIA()"
+    },
+    {
+        "question": "Conceitos básicos de informática: O que é um byte?",
+        "choices": [
+            "a) Uma unidade de medida de velocidade de Internet",
+            "b) Um dispositivo de entrada",
+            "c) Uma unidade de medida de capacidade de armazenamento de dados",
+            "d) Um tipo de software"
+        ],
+        "answer": "c) Uma unidade de medida de capacidade de armazenamento de dados"
+    },
+    {
+        "question": "Conceitos de organização e gerenciamento de arquivos e pastas:  No contexto de sistemas operacionais, o que é uma “pasta”?",
+        "choices": [
+            "a) Um local na rede para compartilhamento de arquivos",
+            "b) Uma ferramenta de desenho em um programa de edição de imagens",
+            "c) Uma unidade de armazenamento físico",
+            "d) Um local no disco rígido onde são armazenados arquivos relacionados"
+        ],
+        "answer": "d) Um local no disco rígido onde são armazenados arquivos relacionados"
+    },
+    {
+        "question": "Noções do sistema operacional Windows: Como você pode acessar o Gerenciador de Tarefas no Windows?",
+        "choices": [
+            "a) Pressionando Ctrl + Alt + Del",
+            "b) Clicando com o botão direito no desktop",
+            "c) Através do Painel de Controle",
+            "d) Digitando “gerenciador” na busca do menu Iniciar"
+        ],
+        "answer": "a) Pressionando Ctrl + Alt + Del"
+    },
+    {
+        "question": "Conceitos de organização e gerenciamento de arquivos e pastas:  No Windows, qual extensão de arquivo é comumente associada aos documentos do Word??",
+        "choices": [
+            "a) .xls",
+            "b) .docx",
+            "c) .pptx",
+            "d) .pdf"
+        ],
+        "answer": "b) .docx"
+    },
+    {
+        "question": "Conceitos básicos de internet: O que é um URL?",
+        "choices": [
+            "a) Um tipo de vírus de computador",
+            "b) Um programa de edição de texto",
+            "c) O endereço de uma página na Internet",
+            "d) Uma forma de criptografia de dados"
+        ],
+        "answer": "c) O endereço de uma página na Internet"
+    },
+    {
+        "question": "Edição de textos, planilhas e demais documentos utilizando o Microsoft 365 (Office): No Microsoft Word, qual recurso você usaria para corrigir automaticamente palavras comuns digitadas incorretamente?",
+        "choices": [
+            "a) AutoFormatação",
+            "b) Corretor Ortográfico",
+            "c) AutoCorreção",
+            "d) Localizar e Substituir"
+        ],
+        "answer": "c) AutoCorreção"
+    }
+    
+]

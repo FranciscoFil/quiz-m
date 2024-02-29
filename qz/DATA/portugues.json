@@ -1,0 +1,120 @@
+[
+    {
+        "question": "Compreensão e Interpretação de Textos: O texto lido é principalmente:",
+        "text": "O fenômeno da chuva é essencial para a manutenção da vida na Terra. Além de prover a água necessária para a sobrevivência de plantas, animais e seres humanos, contribui significativamente para a regulação climática global.",
+        "choices": [
+            "a) Descritivo",
+            "b) Narrativo",
+            "c) Injuntivo",
+            "d) Argumentativo",
+            "e) Expositivo"
+        ],
+        "answer": "e) Expositivo"
+    },
+    {
+        "question": "Recursos de Textualidade: Qual das alternativas a seguir NÃO é considerada um recurso coesivo?",
+        "choices": [
+            "a) Conjunções",
+            "b) Sinônimos",
+            "c) Antônimos",
+            "d) Citações",
+            "e) Pronomes"
+        ],
+        "answer": "d) Citações"
+    },
+    {
+        "question": "O sistema avaliativo apropriado para um novo conceito de escola e de aprendizagem requer uma avaliação significativa e centrada na aprendizagem, que respeita a individualidade do aluno. Ela deverá aparecer desde o momento da sondadgem, do diagnóstico, quando instrumentalizará o professor com dados inicias para que possa planejar as aulas de forma adequada. Assinale a alternativa que deve caracterizar o significado da avaliação no processo ensino aprendizagem",
+        "choices": [
+            "a) Esta afirmação parece focar muito na memorização e na aprovação do aluno, sugerindo que o objetivo principal da avaliação é verificar o que o aluno memorizou e se isso é suficiente para passar de ano. No entanto, a avaliação ideal deve ir além da memorização e considerar também a compreensão, aplicação e análise do conhecimento.",
+            "b) Essa afirmação sugere que um único instrumento, como o código escrito, é suficiente para avaliar todas as capacidades e conteúdos de aprendizagem curriculares. No entanto, as diferentes habilidades dos alunos podem não ser adequadamente avaliadas por um único instrumento, e é importante considerar uma variedade de métodos de avaliação para capturar a complexidade do aprendizado.",
+            "c) Esta afirmação destaca a importância de os professores priorizarem os conteúdos que consideram mais importantes para ajudar os alunos a superar dificuldades durante a aprendizagem. Embora seja importante considerar as necessidades e dificuldades dos alunos, a avaliação também deve ser equilibrada e abranger uma variedade de conteúdos relevantes.",
+            "d) Essa afirmação enfatiza os aspectos quantitativos da avaliação, sugerindo que o resultado final é o mais importante para promover os alunos para o próximo ano. No entanto, a avaliação ideal deve considerar tanto aspectos quantitativos quanto qualitativos do desempenho do aluno, levando em conta não apenas o resultado final, mas também o processo de aprendizagem.",
+            "e) Esta afirmação destaca a importância da avaliação contínua como um meio de acompanhar o progresso do aluno e identificar lacunas no aprendizado. A avaliação contínua permite ajustes ao longo do tempo e pode ser mais eficaz do que uma avaliação única no final do período letivo."
+        ],  
+        "answer": "e) Esta afirmação destaca a importância da avaliação contínua como um meio de acompanhar o progresso do aluno e identificar lacunas no aprendizado. A avaliação contínua permite ajustes ao longo do tempo e pode ser mais eficaz do que uma avaliação única no final do período letivo."
+    },
+    {
+        "question": "Ortografia Oficial",
+        "text": "Marque a opção que apresenta todas as palavras acentuadas corretamente, de acordo com o Novo Acordo Ortográfico.",
+        "choices": [ 
+            "a) Ideía, jibóia, vôo.",
+            "b) Ideia, jiboia, voo.",
+            "c) Idéia, jibóia, vôo.",
+            "d) Ideia, jibóia, voô.",
+            "e) Ídeia, jiboia, vôo."
+        ],
+        "answer": "b) Ideia, jiboia, voo."
+    },
+    {
+        "question": "Semântica",
+        "text": "Assinale a alternativa que apresenta um par de palavras homônimas:",
+        "choices": [
+            "a) Cela (quarto) - Sela (de montar).",
+            "b) Concerto (apresentação musical) - Conserto (reparo).",
+            "c) Descrição (ato de descrever) - Discrição (qualidade de ser discreto).",
+            "d) Sessão (período de tempo) - Cessão (ato de ceder).",
+            "e) Censo (contagem da população) - Senso (juízo)."
+        ],
+        "answer": "b) Concerto (apresentação musical) - Conserto (reparo)."
+    },
+    {
+        "question": "Classes de Palavras",
+        "text": "No trecho “Os primeiros colocados receberão seus prêmios em breve”, a palavra “seus” é um:",
+        "choices": [
+            "a) Substantivo.",
+            "b) Artigo.",
+            "c) Numeral.",
+            "d) Adjetivo.",
+            "e) Pronome."
+        ],
+        "answer": "b) Artigo."
+    },
+    {
+        "question": "Estrutura Morfossintática",
+        "text": "A frase “Quando ele chegou, todos ja haviam saído.” exemplifica uma relação de:",
+        "choices": [
+            "a) Coordenação",
+            "b) Subordinação",
+            "c) Adição",
+            "d) Oposição",
+            "e) Alternância"
+        ],
+        "answer": "b) Subordinação"
+    },
+    {
+        "question": "Estilística",
+        "text": "Identifique a figura de linguagem presente na frase: “O rio, no silêncio da noite, cantava sua antiga canção.” ",
+        "choices": [
+            "a) Metáfora.",
+            "b) Personificação.",
+            "c) Metanímia.",
+            "d) Antítese.",
+            "e) Aliteração."
+        ],
+        "answer": "b) Personificação."
+    },
+    {
+        "question": "Interpretação de Texto",
+        "text": "Um editorial de jornal visa primordialmente:",
+        "choices": [
+            "a) Contar uma história baseada em fatos reais.",
+            "b) Convencer o leitor sobre uma determinada opinião.",
+            "c) Descrever detalhadamente um evento recente.",
+            "d) Instruir o leitor sobre como realizar determinadas tarefas.",
+            "e) Relatar de forma imparcial os acontecimentos."
+        ],
+        "answer": "b) Convencer o leitor sobre uma determinada opinião."
+    },
+    {
+        "question": "Coesão e Coerência",
+        "text": "A expresão “dito isso” e um exemplo de que tipo de recurso coesivo?",
+        "choices": [
+            "a) Conexão.",
+            "b) Referência.",
+            "c) Substituição.",
+            "d) Elipse.",
+            "e) Enumeração."
+        ],
+        "answer": "b) Referência."
+    }
+]
