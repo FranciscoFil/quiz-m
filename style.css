@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Estilos Gerais */
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: var(--font-family); /* Adicionado */
+    color: var(--text-color); /* Adicionado */
+}
+
+/* Animação para gradiente */
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Container Principal */
+.container {
+    padding: 40px;
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: #028186; /* Fundo para o container principal */
+    opacity: 0;
+    transform: scale(0.8);
+    animation: enterAnimation 0.5s forwards ease-out;
+    background-color: var(--background-color); /* Adicionado */
+}
+
+@keyframes enterAnimation {
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Estilo para o campo de entrada de texto */
+input[type='text'] {
+    background-color: #ffffff;
+    color: #00696D;
+    border: 2px solid #01B4BB;
+    border-radius: 25px;
+    padding: 15px 30px;
+    font-size: 1em;
+    margin-bottom: 20px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Estilo para o campo de entrada de texto quando está em foco */
+input[type='text']:focus,
+select:focus {
+    outline: none;
+    border-color: #01B4BB;
+}
+
+/* Estilo para alterar o texto interno do placeholder */
+input[type='text']::placeholder {
+    color: #a2b9bc;
+}
+
+/* Título do Jogo e Botões */
+header h1,
+#startButton,
+#restartButton,
+#submit,
+select {
+    background-color: #01B4BB;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    transition: all 0.3s ease-in-out;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+#startButton:hover,
+#restartButton:hover,
+#submit:hover,
+select:hover {
+    background-color: #66bb6a;
+    will-change: transform, background-color; /* Adicionado */
+}
+
+/* Opções de Resposta */
+.choice {
+    background-color: #01B4BB;
+    color: white;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer; /* Adicionado */
+}
+
+.choice:hover {
+    background-color: #8A2675;
+    transform: translateY(-2px);
+    will-change: transform, background-color; /* Adicionado */
+}
+
+/* Resultado */
+.result,
+.correct,
+.incorrect {
+    color: white;
+}
+
+.correct {
+    animation: pulseGreen 1s infinite;
+}
+
+.incorrect {
+    animation: pulseRed 1s infinite;
+}
+
+/* Estilos para ícones de feedback */
+.correct-icon,
+.incorrect-icon {
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.correct-icon {
+    color: #4CAF50;
+}
+
+.incorrect-icon {
+    color: #F44336;
+}
+
+/* Títulos das Categorias do Ranking */
+.ranking h4 {
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Itens do Ranking */
+.ranking ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ranking li {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 5px 0;
+    padding: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.ranking li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .ranking li {
+        font-size: 0.9em;
+    }
+}
+
+/* Animações para Novos Itens do Ranking */
+@keyframes novoItem {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.ranking li.novo-item {
+    animation: novoItem 0.5s forwards;
+}
+
+/* Ajustes de acessibilidade para garantir contraste */
+.ranking li {
+    color: #fff; /* Assegurar bom contraste de texto */
+}
+
+/* CSS para transições suaves */
+.screen-transition {
+    opacity: 0;
+    transform: translateY(-20px); /* ajuste para começar um pouco acima */
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.screen-active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Estilos para o botão de alternância de som */
+.sound-toggle-container {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.sound-toggle-container input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.sound-toggle-label {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.sound-toggle-label:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .sound-toggle-label {
+    background-color: #4CAF50;
+}
+
+input:checked + .sound-toggle-label:before {
+    transform: translateX(26px);
+}
+
+/* Adicionado código fornecido */
+#scoreDisplay,
+#streakDisplay,
+#rankingDisplay {
+    margin-bottom: 15px;
+    color: #ffffff; /* Ajuste para combinar com o seu esquema de cores */
+    font-size: 1.2em;
+}
+
+#rankingList {
+    list-style-type: none; /* Remove os marcadores de lista */
+    padding: 0;
+}
+
+#rankingList li {
+    border-bottom: 1px solid #ddd; /* Adiciona uma linha divisória entre as pontuações */
+    padding: 5px 0;
+}
+
+button {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: transform 0.2s ease; /* Transição para o efeito de escala */
+}
+
+button:hover {
+    background-color: #45a049; /* Um verde um pouco mais escuro */
+}
+
+button:active {
+    transform: scale(0.98); /* Efeito de escala quando pressionado */
+}
+
+/* Aplicando a animação de gradiente ao plano de fundo */
+body {
+    background: linear-gradient(270deg, #00696D, #01B4BB, #028186);
+    background-size: 600% 600%;
+    animation: gradientAnimation 10s ease infinite;
+}
+
+/* Animação de pulsação */
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
+/* Timer Bar */
+#timerBarContainer {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#timerBar {
+    height: 20px;
+    background-color: #4CAF50;
+    width: 100%; /* Inicialmente a barra está cheia */
+    transition: width 1s linear, background-color 1s linear;
+}
+
+/* Loader */
+.loader {
+    border: 4px solid #f3f3f3; /* Cor de fundo */
+    border-top: 4px solid #3498db; /* Cor da animação */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Novo código adicionado */
+select:focus {
+    background-color: #028186; /* A cor de fundo original do container */
+    /* outras propriedades */
+}
+
+/* Novo código adicionado */
+select {
+    transition: none; /* Remove transições para o elemento de seleção */
+    /* outras propriedades */
+}
+
+/* Corrige a cor do seletor em vários estados */
+select, select:hover, select:focus {
+    background-color: #01B4BB; /* Cor de fundo desejada */
+    color: white;
+}
+
+/* Estilo do botão começar normal */
+#startButton {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza a transição */
+    /* Outras propriedades do botão */
+}
+
+/* Estilo do botão quando o mouse passa por cima */
+#startButton:hover {
+    transform: translateY(-5px); /* Move o botão 5px para cima */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Sombra para dar um efeito de elevação */
+}
+
+/* Adicionado código fornecido */
+:root {
+    --primary-color: #01B4BB;
+    --hover-color: #66bb6a;
+    --background-color: #028186;
+    --text-color: white;
+    --font-family: 'Roboto', sans-serif;
+}
+
+/* Adicionado código fornecido */
+body, html {
+    font-family: var(--font-family);
+    color: var(--text-color);
+}
+
+/* Adicionado código fornecido */
+.container {
+    background-color: var(--background-color);
+}
+
+/* Adicionado código fornecido */
+.choice:hover, #startButton:hover, #restartButton:hover, #submit:hover {
+    will-change: transform, background-color;
+}
+
+/* Adicionado código fornecido */
+.choice, #startButton, #restartButton, #submit {
+    cursor: pointer;
+}
+
+/* Adicionado código fornecido */
+button:active {
+    transform: scale(0.98);
+}
+
+/* Animação do Fundo Gradiente Dinâmico */
+body {
+    background: linear-gradient(270deg, #00696D, #01B4BB, #028186, #00696D);
+    background-size: 600% 600%;
+    animation: gradientAnimation 15s ease infinite;
+}
+
+/* Animação de Entrada para o Container */
+@keyframes enterAnimation {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.container {
+    animation: enterAnimation 1s forwards ease-out;
+}
+
+/* Feedback Visual Aprimorado em Interações */
+button:hover, .choice:hover {
+    background-color: var(--hover-color);
+    box-shadow: 0 0 15px var(--hover-color);
+}
+button:active, .choice:active {
+    transform: scale(0.95);
+}
+
+/* Estilos de Foco Personalizados */
+input[type='text']:focus, select:focus {
+    box-shadow: 0 0 0 3px rgba(102, 187, 106, 0.5);
+}
+
+/* Cursor Personalizado em Elementos Interativos (Exemplo com cursor padrão, personalize conforme necessário) */
+.choice, button {
+    cursor: pointer;
+}
+
+/* Efeitos Visuais em Seleções (Para ícones de correto e incorreto, considerando que você já tem classes definidas) */
+.correct-icon, .incorrect-icon {
+    animation: pulse 0.5s alternate infinite;
+}
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
