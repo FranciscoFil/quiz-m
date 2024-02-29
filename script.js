@@ -91,7 +91,7 @@ const quizApp = {
     },
 
     loadQuestions(category) {
-        fetch(`data/${category}.json`)
+        fetch(`${category}.json`)
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Erro ao carregar as perguntas.');
@@ -392,7 +392,7 @@ let streakBonus = 10;
 const timerDuration = 10;
 
 function loadQuestions(category) {
-    fetch(`data/${category}.json`)
+    fetch(`${category}.json`)
         .then(response => {
             if (!response.ok) {
                 throw new Error('Erro ao carregar as perguntas.');
