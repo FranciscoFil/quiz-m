@@ -54,15 +54,15 @@ const quizApp = {
         document.getElementById('soundToggle').addEventListener('click', () => {
             isSoundEnabled = !isSoundEnabled;
         });
-        document.getElementById('themeSelector').addEventListener('change', function() {
-            const selectedTheme = this.value;
-            document.body.className = selectedTheme;
-            localStorage.setItem('selectedTheme', selectedTheme);
-        });
+        // document.getElementById('themeSelector').addEventListener('change', function() {
+        //     const selectedTheme = this.value;
+        //     document.body.className = selectedTheme;
+        //     localStorage.setItem('selectedTheme', selectedTheme);
+        // });
 
-        const savedTheme = localStorage.getItem('selectedTheme') || 'light';
-        document.body.className = savedTheme;
-        document.getElementById('themeSelector').value = savedTheme;
+        // const savedTheme = localStorage.getItem('selectedTheme') || 'light';
+        // document.body.className = savedTheme;
+        // document.getElementById('themeSelector').value = savedTheme;
 
         window.addEventListener('load', () => {
             const elements = document.querySelectorAll('.container, input, #startButton');
@@ -74,13 +74,13 @@ const quizApp = {
             });
         });
 
-        const socket = io();
+        // const socket = io();
 
-        socket.emit('enviar mensagem', { mensagem: 'Olá, mundo!' });
+        // socket.emit('enviar mensagem', { mensagem: 'Olá, mundo!' });
 
-        socket.on('nova mensagem', (data) => {
-            console.log(data);
-        });
+        // socket.on('nova mensagem', (data) => {
+        //     console.log(data);
+        // });
     },
 
     startGame() {
@@ -412,11 +412,3 @@ function loadQuestions(category) {
             this.finalizarJogo();
         });
 }
-
-const socket = io();
-
-socket.emit('enviar mensagem', { mensagem: 'Olá, mundo!' });
-
-socket.on('nova mensagem', (data) => {
-    console.log(data);
-});
